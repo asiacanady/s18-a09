@@ -26,4 +26,4 @@ Hint: Use `set_index()` and `unstack()` similar to the last assignment.
 
 6. How many hours are spent on average are on housework, by sex and educational attainment? (4 points)
 
-Hint: Housework actitivity codes start with `02`.
+Hint: Housework actitivity codes start with `02`. This will require two `JOIN`s because `edited_sex` is in the `roster` table while `educational_attainment` is in `cps`. See the last query in the slides for an example.
