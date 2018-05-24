@@ -15,7 +15,7 @@ Hint: Use the `worked_last_week` column in the `respondents` table and see `TUFW
 
 Hint: `spouse_or_partner_present`, see `TRSPPRES` in the codebook.
 
-4. How many hours on average are spent playing video games (code 120307) by men and women (1 and 2), in three age decade groups (20-29, 30-39, 40-49)?
+4. How many hours on average are spent playing video games (code 120307) by men and women (1 and 2) and by age decade (10-19, 20-29, 30-39, etc.)?
 
     Hint: you can `GROUP BY` multiple columns by separating them with commas.
     Hint: to group by age decade, use the fact that the default integer division in SQL is floor division. (4 points)
