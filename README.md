@@ -1,7 +1,7 @@
 # Assignment 9: American Time Use Survey
 In this assignment you will use SQL to query the 2003-2015 American Time Use Survey (ATUS). YOu can download the database [here](https://uchicago.app.box.com/s/1yvi09mtje40ep21mf4vt3obm70fvsms). Note that this comes from about 1GB of CSV files which would be strain pandas to load in python. (The sqlite file is smaller, 200MB, because it stores the data more efficiently than a CSV.) You will find the ATUS [Data Dictionary](https://www.bls.gov/tus/atuscpscodebk16.pdf) and [Lexicon](https://www.bls.gov/tus/lexiconwex2016.pdf) useful.
 
-Please submit sql scripts `q1.sql, q2.py,TODO` and the images specified below.
+Please submit sql scripts `q1.sql, q2.py, q3.sql, q4.sql, q6.sql`, a python script `q5.py` and the image specified below.
 
 1. What is the state with the lowest fraction of high school graduates? Put your answer in `ANSWERS.txt`.
 
@@ -11,7 +11,7 @@ Hint: You can look up the state codes [here](https://www.census.gov/geo/referenc
 
 Hint: Use the `worked_last_week` column in the `respondents` table and see `TUFWK` in the dictionary. When `worked_last_week` > 2, the respondent is retired/disabled/unable to work.
 
-3. Group your answer to (4) by whether or not the respondent has a spouse or partner in their household. (4 points)
+3. Group your answer to (4) by whether or not the respondent has a spouse or partner in their household (three possibilities: spouse, partner, neither). (4 points)
 
 Hint: `spouse_or_partner_present`, see `TRSPPRES` in the codebook.
 
