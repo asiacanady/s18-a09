@@ -19,13 +19,12 @@ Please submit sql scripts `q1.sql, q2.py, q3.sql, q4.sql, q6.sql`, a python scri
 
 4. How many hours on average are spent playing video games (code 120307) by men and women (`edited_sex` 1 and 2) and by age decade (10-19, 20-29, 30-39, etc.)?
 
-    Hint: you can `GROUP BY` multiple columns by separating them with commas.
-    Hint: to group by age decade, use the fact that the default integer division in SQL is floor division. (4 points)
+    Hint: You can `GROUP BY` multiple columns by separating them with commas. To group by age decade, use the fact that the default integer division in SQL is floor division. (4 points)
     
-5. Use python to run your script from (2) and plot the results with two lines, one for men and one for women, with age decade on the x axis and average hours gaming on the y axis. Label the axes appropriately and use a legend to identify the two lines. Save the plot in `gaming.png`. (4 points)
+5. Use Python to run your script from (4) and plot the results with age decade on the x axis and average hours gaming on the y axis and two lines, one for men and one for women,. Label the axes appropriately and use a legend to identify the two lines. Save the plot in `gaming.png`. (4 points)
 
     Hint: Use `set_index()` and `unstack()` similar to the last assignment.
 
-6. How many hours are spent on average are on household activities, by sex and educational attainment? (4 points)
+6. How many hours are spent on average on household activities, by sex and educational attainment? (4 points)
 
     Hint: Household actitivity codes start with `02`. This will require two `JOIN`s because `edited_sex` is in the `roster` table while `educational_attainment` is in `cps`. See the last query in the slides for an example.
