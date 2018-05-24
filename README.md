@@ -3,7 +3,7 @@ In this assignment you will use SQL to query the 2003-2015 American Time Use Sur
 
 Please submit sql scripts `q1.sql, q2.py, q3.sql, q4.sql, q6.sql`, a python script `q5.py` and the image specified below.
 
-1. What is the state with the lowest fraction of high school graduates? Put your answer in `ANSWERS.txt`.
+1. What is the state with the lowest fraction of high school graduates? Put your answer in a comment at the end of q1.sql.
 
     Hint: You can look up the state codes [here](https://www.census.gov/geo/reference/ansi_statetables.html).
 
