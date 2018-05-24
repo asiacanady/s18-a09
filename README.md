@@ -5,19 +5,19 @@ Note that this is the full dataset (not the sample used in class) from about 1GB
 
 Please submit sql scripts `q1.sql, q2.py, q3.sql, q4.sql, q6.sql`, a python script `q5.py` and the image specified below.
 
-1. What is the state with the lowest fraction of high school graduates? Put your answer in a comment at the end of q1.sql.
+1. What is the state whose proportion of respondents who are high school graduates is the lowest? Put your answer in a comment at the end of q1.sql.
 
     Hint: You can look up the state codes [here](https://www.census.gov/geo/reference/ansi_statetables.html).
 
 2. What proportion of respondents who are eligible to work did work last week? (4 points)
 
-    Hint: Use the `worked_last_week` column in the `respondents` table and see `TUFWK` in the dictionary. When `worked_last_week` > 2, the respondent is retired/disabled/unable to work.
+    Hint: Use the `worked_last_week` column in the `respondents` table and see `TUFWK` in the dictionary. When `worked_last_week` > 2, the respondent is retired/disabled/unable to work and so should be excluded in this question.
 
 3. Group your answer to (4) by whether or not the respondent has a spouse or partner in their household (three possibilities: spouse, partner, neither). (4 points)
 
     Hint: `spouse_or_partner_present`, see `TRSPPRES` in the codebook.
 
-4. How many hours on average are spent playing video games (code 120307) by men and women (1 and 2) and by age decade (10-19, 20-29, 30-39, etc.)?
+4. How many hours on average are spent playing video games (code 120307) by men and women (`edited_sex` 1 and 2) and by age decade (10-19, 20-29, 30-39, etc.)?
 
     Hint: you can `GROUP BY` multiple columns by separating them with commas.
     Hint: to group by age decade, use the fact that the default integer division in SQL is floor division. (4 points)
