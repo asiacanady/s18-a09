@@ -1,2 +1,13 @@
-# s18-a09
-Spring 2018 Assignment 9
+# Assignment 9: American Time Use Survey
+In this assignment you will use SQL to query the 2003-2015 American Time Use Survey (ATUS). YOu can download the database [here](https://uchicago.app.box.com/s/1yvi09mtje40ep21mf4vt3obm70fvsms). Note that this comes from about 1GB of CSV files which would be strain pandas to load in python. (The sqlite file is smaller, 200MB, because it stores the data more efficiently than a CSV.) You will find the ATUS [Data Dictionary](https://www.bls.gov/tus/atuscpscodebk16.pdf) and [Lexicon](https://www.bls.gov/tus/lexiconwex2016.pdf) useful.
+
+Please submit sql scripts `q1.sql, q2.py,TODO` and the images specified below.
+
+1. How many hours on average are spent playing video games (code 120307) by men and women (1 and 2), in three age decade groups (20-29, 30-39, 40-49)?
+
+    Hint: you can `GROUP BY` multiple columns.
+    Hint: to group by age decade, use the fact that the default integer division in SQL is floor division. (4 points)
+    
+2. Use python to run your script from (1) and plot the results with two lines, one for men and one for women, with age decade on the x axis and average hours gaming on the y axis. Label the axes appropriately and use a legend to identify the two lines. Save the plot in `gaming.png`. (4 points)
+
+Hint: Use `set_index()` and `unstack()` similar to the last assignment.
