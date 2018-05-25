@@ -3,7 +3,7 @@ In this assignment you will use SQL to query the 2003-2015 American Time Use Sur
 
 Note that this is the full dataset (not the sample used in class) from about 1GB of CSV files which would be strain pandas to load in python. (The sqlite file is smaller, 200MB, because it stores the data more efficiently than a CSV.) You will find the ATUS [Data Dictionary](https://www.bls.gov/tus/atuscpscodebk16.pdf) and [Lexicon](https://www.bls.gov/tus/lexiconwex2016.pdf) useful.
 
-Please submit sql scripts `q1.sql, q2.py, q3.sql, q4.sql, q6.sql`, a python script `q5.py` and the image specified below.
+Please submit sql scripts `q1.sql, q2.sql, q3.sql, q4.sql, q6.sql`, a python script `q5.py` and the image specified below.
 
 1. What is the state whose proportion of respondents who are high school graduates is the lowest? Put your answer in a comment at the end of q1.sql.
 
